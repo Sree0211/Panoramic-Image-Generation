@@ -29,7 +29,7 @@ int main()
 
     // Read all images
 
-    std::string path = "/Users/sreenathswaminathan/Desktop/Uni-Docs/Autonomous fahren kurs/CV Project/Panoramic-Image-Generation/hw1/";
+    std::string path = "../images/";
     std::vector<cv::Mat> im_list;
     for (int i = 1; i < 9; ++i) {
         std::string im_file = path + std::to_string(i) + ".jpg";
